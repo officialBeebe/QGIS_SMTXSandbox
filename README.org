@@ -1,0 +1,94 @@
+#+title: SMTX Sandbox QGIS Project
+#+description: Sandbox QGIS project for documenting certain layers of interest around San Marcos, TX.
+#+author: Dylan Beebe
+#+options: toc:2
+
+* Overview
+
+The purpose of this project is to document free and otherwise restricted parking in and around the "Square", Guadalupe River, and other of my favorite areas to exist in around San Marcos, Texas.
+
+There are two primary goals of the project:
+
+1. Produce a map anyone could reference and understand at a glance there options for parking in the areas previously mentioned.
+2. Publish at least the parking layer for other GIS users to import into their own projects.
+
+* Feature Layers
+
+** Points
+
+*** Points
+
+Potpourri points of interest. A quick way to mark something for further investigation that doesn't already have a dedicated feature/form.
+
+| Attribute  | Type  | Description       | Notes                                               |
+|------------+-------+-------------------+-----------------------------------------------------|
+| fid        | Int64 | Feature ID.       | Hidden, Autoincrement                               |
+| name       | Text  | Name of point.    | Default: `format('Point %1', count('fid') + 1)`     |
+| date_added | Date  | Date added.       | Hidden, Default: `format_date(now(), 'yyyy-MM-dd')` |
+| attachment | Text  | Attachment[fn:1]. | Image                                               |
+| notes      | Text  | Notes.            |                                                     |
+
+** Polylines
+
+*** Tracks
+
+I'm pretty sure this is just a history of where I've been essentially. Points I make along this track could add context to what I encounter for when I go back and digitize named paths along this track.
+
+| Attribute  | Type  | Description | Notes                            |
+|------------+-------+-------------+----------------------------------|
+| fid        | Int64 | Feature ID. | Hidden, Autoincrement            |
+| date_added | Date  | Date added. | format_date(now(), 'yyyy-MM-dd') |
+
+** Polygons
+
+*** Parking
+
+This projects conceptive cause: document the free parking of San Marcos, Texas... GIS interested me greatly and as I asked myself what I want to use if for, all I could think about what how I, a resident, am still very unfamiliar with the parking situation around my town. Certainly this issue lends to the fact that I am indeed NOT a student of TXST, nonetheless, my plan was to produce a map detailing the free parking (and "human deer-trails"[fn:2]) in and around the "Square" and along the Guadalupe River that is this town's main arterial attraction, providing both residents and visitors alike with informed parking acumen well in advance of their endeavors around this wonderful town I call home.
+
+| Attribute                | Type  | Description                                       | Notes                                               |
+|--------------------------+-------+---------------------------------------------------+-----------------------------------------------------|
+| fid                      | Int64 | Feature ID.                                       | Hidden, Autoincrement                               |
+| name                     | Text  | Name of lot.                                      | Default: `format('Lot %1', count('fid') + 1)`       |
+| owner_type               | Text  | Private or public?                                |                                                     |
+| is_fee_restricted        | Bool  | Simple payments such as a kiosk or app.           |                                                     |
+| fee_restriction_notes    | Text  | Paid restriction notes.                           | Hidden unless `is_fee_restricted` IS `true`         |
+| is_permit_restricted     | Bool  | More complex payment, e.g. parking pass.          |                                                     |
+| permit_restriction_notes | Text  | Permit restriction notes.                         | Hidden unless `is_permit_restricted` IS `true`      |
+| is_time_restricted       | Bool  | Time range restriction, i.e. 0800-1600, M-F; 2HR. |                                                     |
+| time_restriction_notes   | Text  | Time restriction notes.                           | Hidden unless `is_time_restricted` IS `true`        |
+| is_other_restricted      | Bool  | Customer parking, employee parking, etc.          |                                                     |
+| other_restriction_notes  | Text  | Other restriction notes.                          | Hidden unless `is_other_restricted` IS `true`       |
+| total_capacity           | Int64 | Total number of parking spots.                    |                                                     |
+| handicap_capacity        | Int64 | Number of handicap spots.                         |                                                     |
+| ev_capacity              | Int64 | Number of electric vehicle spots.                 |                                                     |
+| surface_type             | Text  | Asphalt/Concrete/Dirt/Grass/Gravel/Other          |                                                     |
+| surface_notes            | Text  | Other surface notes.                              |                                                     |
+| date_added               | Date  | Date added.                                       | Hidden, Default: `format_date(now(), 'yyyy-MM-dd')` |
+| date_last_verified       | Date  | Date last boots-on-ground verification.           | Default: `format_date(now(), 'yyyy-MM-dd')`         |
+| notes                    | Text  | Notes.                                            |                                                     |
+
+- TODO: workout how to add todos to agenda
+- TODO: insert plantuml to describe the control flow that unlocks fields from `is_restricted` to `other_restriction_notes`... it basically linear but you know damn well a chart would look sick right here!
+
+* Additional Layers
+
+** Open Street Map
+
+** San Marcos, TX -- OSM Search
+
+** TXST -- OSM Search
+
+* Plugins
+
+** QField Sync
+
+** OSM Place Search
+
+* Resources
+
+** TXST Color Palette
+
+* Footnotes
+[fn:2] In the woods you often encounter deer-trails that tell a story of the quadrupedal natives of these lands. Like human "paths of desire", so do these paths cut across our human intentions, and make way towards their own intuitive destinies; an alleyway that cuts between two streets, a mall vomitorium that connects opposite ends of the block, or plainly a path of desire that traverses a bonus hole in the fence from one part of civilization to another -- these are the targets of my search.
+
+[fn:1] I would really prefer if this was multiple attachments in a single field... else I have to turn this field into `attachment_1`, `attachment_2`, ...
