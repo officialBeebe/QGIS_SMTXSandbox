@@ -3,6 +3,8 @@
 #+author: Dylan Beebe
 #+options: toc:2
 
+* TODO: Rewrite outdated README.org :P
+
 * Overview
 
 The purpose of this project is to document free and otherwise restricted parking in and around the "Square", Guadalupe River, and other of my favorite areas to exist in around San Marcos, Texas.
