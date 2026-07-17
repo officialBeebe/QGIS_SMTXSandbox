@@ -1,0 +1,1040 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1" groupLayer="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer source="../StreetParking.gpkg|layername=street_parking" checked="Qt::Checked" legend_exp="" name="Street Parking — street_parking" providerKey="ogr" patch_size="-1,-1" legend_split_behavior="0" id="street_parking_57827d8d_d0f0_4ff1_8aa7_0a6d6260528a" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" simplifyMaxScale="1" geometry="Line" simplifyDrawingHints="1" wkbType="LineString" simplifyDrawingTol="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" maxScale="0" type="vector" legendPlaceholderImage="" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" labelsEnabled="0" autoRefreshTime="0" minScale="100000000" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" symbologyReferenceScale="-1">
+      <extent>
+        <xmin>-10901576</xmin>
+        <ymin>3487828.25</ymin>
+        <xmax>-10901484</xmax>
+        <ymax>3487906</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-97.9305234179055617</xmin>
+        <ymin>29.87761637687217586</ymin>
+        <xmax>-97.92969696784417977</xmax>
+        <ymax>29.87822198648459349</ymax>
+      </wgs84extent>
+      <id>street_parking_57827d8d_d0f0_4ff1_8aa7_0a6d6260528a</id>
+      <datasource>../StreetParking.gpkg|layername=street_parking</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Street Parking — street_parking</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+            <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+            <srsid>3857</srsid>
+            <srid>3857</srid>
+            <authid>EPSG:3857</authid>
+            <description>WGS 84 / Pseudo-Mercator</description>
+            <projectionacronym>merc</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" crs="EPSG:3857" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" dimensions="2" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fixedDuration="0" endExpression="" enabled="0" durationField="fid" mode="0" startExpression="" durationUnit="min" endField="" startField="date_added" limitMode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation binding="Centroid" symbology="Line" zscale="1" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" extrusionEnabled="0" clamping="Terrain" type="IndividualFeatures" extrusion="0" zoffset="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" alpha="1" is_animated="0" frame_rate="10" clip_to_extent="1" type="line" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0" id="{064f8bd8-10a5-43df-981a-92ff7e0d478a}">
+              <Option type="Map">
+                <Option value="0" name="align_dash_pattern" type="QString"/>
+                <Option value="square" name="capstyle" type="QString"/>
+                <Option value="5;2" name="customdash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                <Option value="MM" name="customdash_unit" type="QString"/>
+                <Option value="0" name="dash_pattern_offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                <Option value="0" name="draw_inside_polygon" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="152,125,183,255,rgb:0.59607843137254901,0.49019607843137253,0.71764705882352942,1" name="line_color" type="QString"/>
+                <Option value="solid" name="line_style" type="QString"/>
+                <Option value="0.6" name="line_width" type="QString"/>
+                <Option value="MM" name="line_width_unit" type="QString"/>
+                <Option value="0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="0" name="ring_filter" type="QString"/>
+                <Option value="0" name="trim_distance_end" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                <Option value="0" name="trim_distance_start" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                <Option value="0" name="use_custom_dash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" alpha="1" is_animated="0" frame_rate="10" clip_to_extent="1" type="fill" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0" id="{4e2b5dcd-dd58-4221-8c39-829a3e86c64c}">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="152,125,183,255,rgb:0.59607843137254901,0.49019607843137253,0.71764705882352942,1" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="109,89,131,255,rgb:0.42575722896162355,0.35013351644159607,0.51259632257572285,1" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="solid" name="style" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" alpha="1" is_animated="0" frame_rate="10" clip_to_extent="1" type="marker" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0" id="{e3996eb1-9d97-49c9-9a41-394179664899}">
+              <Option type="Map">
+                <Option value="0" name="angle" type="QString"/>
+                <Option value="square" name="cap_style" type="QString"/>
+                <Option value="152,125,183,255,rgb:0.59607843137254901,0.49019607843137253,0.71764705882352942,1" name="color" type="QString"/>
+                <Option value="1" name="horizontal_anchor_point" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="diamond" name="name" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="109,89,131,255,rgb:0.42575722896162355,0.35013351644159607,0.51259632257572285,1" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="diameter" name="scale_method" type="QString"/>
+                <Option value="3" name="size" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+                <Option value="MM" name="size_unit" type="QString"/>
+                <Option value="1" name="vertical_anchor_point" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 enableorderby="0" symbollevels="0" referencescale="-1" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" alpha="1" is_animated="0" frame_rate="10" clip_to_extent="1" type="line" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0" id="{d5b3e1ef-d427-46f8-a7c8-fc15fc873fbe}">
+              <Option type="Map">
+                <Option value="0" name="align_dash_pattern" type="QString"/>
+                <Option value="square" name="capstyle" type="QString"/>
+                <Option value="5;2" name="customdash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                <Option value="MM" name="customdash_unit" type="QString"/>
+                <Option value="0" name="dash_pattern_offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                <Option value="0" name="draw_inside_polygon" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="190,207,80,255,rgb:0.74509803921568629,0.81176470588235294,0.31372549019607843,1" name="line_color" type="QString"/>
+                <Option value="solid" name="line_style" type="QString"/>
+                <Option value="0.26" name="line_width" type="QString"/>
+                <Option value="MM" name="line_width_unit" type="QString"/>
+                <Option value="0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="0" name="ring_filter" type="QString"/>
+                <Option value="0" name="trim_distance_end" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                <Option value="0" name="trim_distance_start" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                <Option value="0" name="use_custom_dash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol name="" alpha="1" is_animated="0" frame_rate="10" clip_to_extent="1" type="line" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0" id="{2be02f74-c414-402f-bc1f-c21b4ccd2fd4}">
+              <Option type="Map">
+                <Option value="0" name="align_dash_pattern" type="QString"/>
+                <Option value="square" name="capstyle" type="QString"/>
+                <Option value="5;2" name="customdash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                <Option value="MM" name="customdash_unit" type="QString"/>
+                <Option value="0" name="dash_pattern_offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                <Option value="0" name="draw_inside_polygon" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="line_color" type="QString"/>
+                <Option value="solid" name="line_style" type="QString"/>
+                <Option value="0.26" name="line_width" type="QString"/>
+                <Option value="MM" name="line_width_unit" type="QString"/>
+                <Option value="0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="0" name="ring_filter" type="QString"/>
+                <Option value="0" name="trim_distance_end" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                <Option value="0" name="trim_distance_start" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                <Option value="0" name="use_custom_dash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option value="keep_existent" name="QFieldSync/action" type="QString"/>
+          <Option value="{&quot;other_attachment&quot;: &quot;'DCIM/street-street-parking_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.{extension}'&quot;, &quot;restriction_info_attachment&quot;: &quot;'DCIM/street-street-parking_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.{extension}'&quot;}" name="QFieldSync/attachment_naming" type="QString"/>
+          <Option name="QFieldSync/attribute_editing_locked_expression" type="invalid"/>
+          <Option value="offline" name="QFieldSync/cloud_action" type="QString"/>
+          <Option name="QFieldSync/feature_addition_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/feature_deletion_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/geometry_editing_locked_expression" type="invalid"/>
+          <Option value="true" name="QFieldSync/is_feature_deletion_locked" type="bool"/>
+          <Option value="{&quot;other_attachment&quot;: &quot;'DCIM/street-street-parking_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.{extension}'&quot;, &quot;restriction_info_attachment&quot;: &quot;'DCIM/street-street-parking_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.{extension}'&quot;}" name="QFieldSync/photo_naming" type="QString"/>
+          <Option value="{}" name="QFieldSync/relationship_maximum_visible" type="QString"/>
+          <Option value="30" name="QFieldSync/tracking_distance_requirement_minimum_meters" type="int"/>
+          <Option value="1" name="QFieldSync/tracking_erroneous_distance_safeguard_maximum_meters" type="int"/>
+          <Option value="0" name="QFieldSync/tracking_measurement_type" type="int"/>
+          <Option value="30" name="QFieldSync/tracking_time_requirement_interval_seconds" type="int"/>
+          <Option value="0" name="QFieldSync/value_map_button_interface_threshold" type="int"/>
+          <Option value="0" name="embeddedWidgets/count" type="int"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="owner_type" configurationFlags="NoFlag">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option name="map" type="List">
+                  <Option type="Map">
+                    <Option value="private" name="Private" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="public" name="Public" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="other" name="Other" type="QString"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="is_fee_restricted" configurationFlags="NoFlag">
+          <editWidget type="CheckBox">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="AllowNullState" type="bool"/>
+                <Option name="CheckedState" type="invalid"/>
+                <Option value="0" name="TextDisplayMethod" type="int"/>
+                <Option name="UncheckedState" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="is_permit_restricted" configurationFlags="NoFlag">
+          <editWidget type="CheckBox">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="AllowNullState" type="bool"/>
+                <Option name="CheckedState" type="invalid"/>
+                <Option value="0" name="TextDisplayMethod" type="int"/>
+                <Option name="UncheckedState" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="is_time_restricted" configurationFlags="NoFlag">
+          <editWidget type="CheckBox">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="AllowNullState" type="bool"/>
+                <Option name="CheckedState" type="invalid"/>
+                <Option value="0" name="TextDisplayMethod" type="int"/>
+                <Option name="UncheckedState" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="is_other_restricted" configurationFlags="NoFlag">
+          <editWidget type="CheckBox">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="AllowNullState" type="bool"/>
+                <Option name="CheckedState" type="invalid"/>
+                <Option value="0" name="TextDisplayMethod" type="int"/>
+                <Option name="UncheckedState" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fee_restriction_notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="permit_restriction_notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="time_restriction_notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other_restriction_notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface_type" configurationFlags="NoFlag">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option name="map" type="List">
+                  <Option type="Map">
+                    <Option value="asphalt" name="Asphalt" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="concrete" name="Concrete" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="dirt" name="Dirt" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="grass" name="Grass" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="gravel" name="Gravel" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="sand" name="Sand" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="other" name="Other" type="QString"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface_notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="date_added" configurationFlags="NoFlag">
+          <editWidget type="DateTime">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="allow_null" type="bool"/>
+                <Option value="true" name="calendar_popup" type="bool"/>
+                <Option value="yyyy-MM-dd" name="display_format" type="QString"/>
+                <Option value="yyyy-MM-dd" name="field_format" type="QString"/>
+                <Option value="false" name="field_format_overwrite" type="bool"/>
+                <Option value="false" name="field_iso_format" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="date_last_verified" configurationFlags="NoFlag">
+          <editWidget type="DateTime">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="allow_null" type="bool"/>
+                <Option value="true" name="calendar_popup" type="bool"/>
+                <Option value="yyyy-MM-dd" name="display_format" type="QString"/>
+                <Option value="yyyy-MM-dd" name="field_format" type="QString"/>
+                <Option value="false" name="field_format_overwrite" type="bool"/>
+                <Option value="false" name="field_iso_format" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other_attachment" configurationFlags="NoFlag">
+          <editWidget type="ExternalResource">
+            <config>
+              <Option type="Map">
+                <Option value="1" name="DocumentViewer" type="int"/>
+                <Option value="0" name="DocumentViewerHeight" type="int"/>
+                <Option value="0" name="DocumentViewerWidth" type="int"/>
+                <Option value="true" name="FileWidget" type="bool"/>
+                <Option value="true" name="FileWidgetButton" type="bool"/>
+                <Option name="FileWidgetFilter" type="invalid"/>
+                <Option name="PropertyCollection" type="Map">
+                  <Option name="name" type="invalid"/>
+                  <Option name="properties" type="invalid"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+                <Option value="0" name="RelativeStorage" type="int"/>
+                <Option name="StorageAuthConfigId" type="invalid"/>
+                <Option value="0" name="StorageMode" type="int"/>
+                <Option name="StorageType" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="notes" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="true" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="restriction_info_attachment" configurationFlags="NoFlag">
+          <editWidget type="ExternalResource">
+            <config>
+              <Option type="Map">
+                <Option value="1" name="DocumentViewer" type="int"/>
+                <Option value="0" name="DocumentViewerHeight" type="int"/>
+                <Option value="0" name="DocumentViewerWidth" type="int"/>
+                <Option value="true" name="FileWidget" type="bool"/>
+                <Option value="true" name="FileWidgetButton" type="bool"/>
+                <Option name="FileWidgetFilter" type="invalid"/>
+                <Option name="PropertyCollection" type="Map">
+                  <Option name="name" type="invalid"/>
+                  <Option name="properties" type="invalid"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+                <Option value="0" name="RelativeStorage" type="int"/>
+                <Option name="StorageAuthConfigId" type="invalid"/>
+                <Option value="0" name="StorageMode" type="int"/>
+                <Option name="StorageType" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="total_capacity" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="fid" index="0"/>
+        <alias name="Name" field="name" index="1"/>
+        <alias name="Owner Type" field="owner_type" index="2"/>
+        <alias name="Fee Restricted" field="is_fee_restricted" index="3"/>
+        <alias name="Permit Restricted" field="is_permit_restricted" index="4"/>
+        <alias name="Time Restricted" field="is_time_restricted" index="5"/>
+        <alias name="Other Restricted" field="is_other_restricted" index="6"/>
+        <alias name="Fee Restriction Notes" field="fee_restriction_notes" index="7"/>
+        <alias name="Permit Restriction Notes" field="permit_restriction_notes" index="8"/>
+        <alias name="Time Restriction Notes" field="time_restriction_notes" index="9"/>
+        <alias name="Other Restriction Notes" field="other_restriction_notes" index="10"/>
+        <alias name="Surface Type" field="surface_type" index="11"/>
+        <alias name="Surface Notes" field="surface_notes" index="12"/>
+        <alias name="" field="date_added" index="13"/>
+        <alias name="Date Last Verified" field="date_last_verified" index="14"/>
+        <alias name="Other Info Image" field="other_attachment" index="15"/>
+        <alias name="Notes" field="notes" index="16"/>
+        <alias name="Restriction Info Image" field="restriction_info_attachment" index="17"/>
+        <alias name="Total" field="total_capacity" index="18"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="fid"/>
+        <policy policy="Duplicate" field="name"/>
+        <policy policy="Duplicate" field="owner_type"/>
+        <policy policy="Duplicate" field="is_fee_restricted"/>
+        <policy policy="Duplicate" field="is_permit_restricted"/>
+        <policy policy="Duplicate" field="is_time_restricted"/>
+        <policy policy="Duplicate" field="is_other_restricted"/>
+        <policy policy="Duplicate" field="fee_restriction_notes"/>
+        <policy policy="Duplicate" field="permit_restriction_notes"/>
+        <policy policy="Duplicate" field="time_restriction_notes"/>
+        <policy policy="Duplicate" field="other_restriction_notes"/>
+        <policy policy="Duplicate" field="surface_type"/>
+        <policy policy="Duplicate" field="surface_notes"/>
+        <policy policy="Duplicate" field="date_added"/>
+        <policy policy="Duplicate" field="date_last_verified"/>
+        <policy policy="Duplicate" field="other_attachment"/>
+        <policy policy="Duplicate" field="notes"/>
+        <policy policy="Duplicate" field="restriction_info_attachment"/>
+        <policy policy="Duplicate" field="total_capacity"/>
+      </splitPolicies>
+      <duplicatePolicies>
+        <policy policy="Duplicate" field="fid"/>
+        <policy policy="Duplicate" field="name"/>
+        <policy policy="Duplicate" field="owner_type"/>
+        <policy policy="Duplicate" field="is_fee_restricted"/>
+        <policy policy="Duplicate" field="is_permit_restricted"/>
+        <policy policy="Duplicate" field="is_time_restricted"/>
+        <policy policy="Duplicate" field="is_other_restricted"/>
+        <policy policy="Duplicate" field="fee_restriction_notes"/>
+        <policy policy="Duplicate" field="permit_restriction_notes"/>
+        <policy policy="Duplicate" field="time_restriction_notes"/>
+        <policy policy="Duplicate" field="other_restriction_notes"/>
+        <policy policy="Duplicate" field="surface_type"/>
+        <policy policy="Duplicate" field="surface_notes"/>
+        <policy policy="Duplicate" field="date_added"/>
+        <policy policy="Duplicate" field="date_last_verified"/>
+        <policy policy="Duplicate" field="other_attachment"/>
+        <policy policy="Duplicate" field="notes"/>
+        <policy policy="Duplicate" field="restriction_info_attachment"/>
+        <policy policy="Duplicate" field="total_capacity"/>
+      </duplicatePolicies>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression="epoch(now())"/>
+        <default applyOnUpdate="0" field="name" expression="format('Street Parking %1', count('fid') + 1)"/>
+        <default applyOnUpdate="0" field="owner_type" expression=""/>
+        <default applyOnUpdate="0" field="is_fee_restricted" expression=""/>
+        <default applyOnUpdate="0" field="is_permit_restricted" expression=""/>
+        <default applyOnUpdate="0" field="is_time_restricted" expression=""/>
+        <default applyOnUpdate="0" field="is_other_restricted" expression=""/>
+        <default applyOnUpdate="0" field="fee_restriction_notes" expression=""/>
+        <default applyOnUpdate="0" field="permit_restriction_notes" expression=""/>
+        <default applyOnUpdate="0" field="time_restriction_notes" expression=""/>
+        <default applyOnUpdate="0" field="other_restriction_notes" expression=""/>
+        <default applyOnUpdate="0" field="surface_type" expression=""/>
+        <default applyOnUpdate="0" field="surface_notes" expression=""/>
+        <default applyOnUpdate="0" field="date_added" expression="format_date(now(), 'yyyy-MM-dd')"/>
+        <default applyOnUpdate="0" field="date_last_verified" expression=""/>
+        <default applyOnUpdate="0" field="other_attachment" expression=""/>
+        <default applyOnUpdate="0" field="notes" expression=""/>
+        <default applyOnUpdate="0" field="restriction_info_attachment" expression=""/>
+        <default applyOnUpdate="0" field="total_capacity" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" constraints="3" notnull_strength="1" field="fid" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="name" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="owner_type" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="is_fee_restricted" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="is_permit_restricted" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="is_time_restricted" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="is_other_restricted" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="fee_restriction_notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="permit_restriction_notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="time_restriction_notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="other_restriction_notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="surface_type" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="surface_notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="date_added" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="date_last_verified" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="other_attachment" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="notes" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="restriction_info_attachment" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="total_capacity" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="owner_type" exp=""/>
+        <constraint desc="" field="is_fee_restricted" exp=""/>
+        <constraint desc="" field="is_permit_restricted" exp=""/>
+        <constraint desc="" field="is_time_restricted" exp=""/>
+        <constraint desc="" field="is_other_restricted" exp=""/>
+        <constraint desc="" field="fee_restriction_notes" exp=""/>
+        <constraint desc="" field="permit_restriction_notes" exp=""/>
+        <constraint desc="" field="time_restriction_notes" exp=""/>
+        <constraint desc="" field="other_restriction_notes" exp=""/>
+        <constraint desc="" field="surface_type" exp=""/>
+        <constraint desc="" field="surface_notes" exp=""/>
+        <constraint desc="" field="date_added" exp=""/>
+        <constraint desc="" field="date_last_verified" exp=""/>
+        <constraint desc="" field="other_attachment" exp=""/>
+        <constraint desc="" field="notes" exp=""/>
+        <constraint desc="" field="restriction_info_attachment" exp=""/>
+        <constraint desc="" field="total_capacity" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" name="fid" hidden="0" type="field"/>
+          <column width="-1" name="name" hidden="0" type="field"/>
+          <column width="-1" name="owner_type" hidden="0" type="field"/>
+          <column width="-1" name="is_fee_restricted" hidden="0" type="field"/>
+          <column width="-1" name="is_permit_restricted" hidden="0" type="field"/>
+          <column width="-1" name="is_time_restricted" hidden="0" type="field"/>
+          <column width="-1" name="is_other_restricted" hidden="0" type="field"/>
+          <column width="-1" name="fee_restriction_notes" hidden="0" type="field"/>
+          <column width="-1" name="permit_restriction_notes" hidden="0" type="field"/>
+          <column width="-1" name="time_restriction_notes" hidden="0" type="field"/>
+          <column width="-1" name="other_restriction_notes" hidden="0" type="field"/>
+          <column width="-1" name="surface_type" hidden="0" type="field"/>
+          <column width="-1" name="surface_notes" hidden="0" type="field"/>
+          <column width="-1" name="date_added" hidden="0" type="field"/>
+          <column width="-1" name="date_last_verified" hidden="0" type="field"/>
+          <column width="-1" name="other_attachment" hidden="0" type="field"/>
+          <column width="-1" name="notes" hidden="0" type="field"/>
+          <column width="-1" name="restriction_info_attachment" hidden="0" type="field"/>
+          <column width="-1" name="total_capacity" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>tablayout</editorlayout>
+      <attributeEditorForm>
+        <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+          <labelFont style="" description="Noto Sans, ,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+        </labelStyle>
+        <attributeEditorContainer visibilityExpression="" horizontalStretch="0" collapsedExpression="" name="Basic" showLabel="1" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="0" collapsedExpressionEnabled="0" groupBox="0" type="Tab" columnCount="1">
+          <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+            <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" name="name" showLabel="1" verticalStretch="0" index="1">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" name="owner_type" showLabel="1" verticalStretch="0" index="2">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" name="notes" showLabel="1" verticalStretch="0" index="16">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" name="other_attachment" showLabel="1" verticalStretch="0" index="15">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" name="date_last_verified" showLabel="1" verticalStretch="0" index="14">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer visibilityExpression="" horizontalStretch="0" collapsedExpression="" name="Restrictions" showLabel="1" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="0" collapsedExpressionEnabled="0" groupBox="0" type="Tab" columnCount="1">
+          <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+            <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" name="is_fee_restricted" showLabel="1" verticalStretch="0" index="3">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorContainer visibilityExpression="is_fee_restricted IS NOT FALSE" horizontalStretch="0" collapsedExpression="" name="Conditional Fee Notes" showLabel="0" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="1" collapsedExpressionEnabled="0" groupBox="0" type="Row" columnCount="1">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" name="fee_restriction_notes" showLabel="1" verticalStretch="0" index="7">
+              <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+                <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorField horizontalStretch="0" name="is_time_restricted" showLabel="1" verticalStretch="0" index="5">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorContainer visibilityExpression="is_time_restricted IS NOT FALSE" horizontalStretch="0" collapsedExpression="" name="Conditional Time Notes" showLabel="0" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="1" collapsedExpressionEnabled="0" groupBox="0" type="Row" columnCount="1">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" name="time_restriction_notes" showLabel="1" verticalStretch="0" index="9">
+              <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+                <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorField horizontalStretch="0" name="is_other_restricted" showLabel="1" verticalStretch="0" index="6">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorContainer visibilityExpression="is_other_restricted IS NOT FALSE" horizontalStretch="0" collapsedExpression="" name="Conditional Other Notes" showLabel="0" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="1" collapsedExpressionEnabled="0" groupBox="0" type="Row" columnCount="1">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" name="other_restriction_notes" showLabel="1" verticalStretch="0" index="10">
+              <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+                <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorField horizontalStretch="0" name="is_permit_restricted" showLabel="1" verticalStretch="0" index="4">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorContainer visibilityExpression="is_permit_restricted IS NOT FALSE" horizontalStretch="0" collapsedExpression="" name="Conditional Permit Notes" showLabel="0" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="1" collapsedExpressionEnabled="0" groupBox="0" type="Row" columnCount="1">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" name="permit_restriction_notes" showLabel="1" verticalStretch="0" index="8">
+              <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+                <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorField horizontalStretch="0" name="restriction_info_attachment" showLabel="1" verticalStretch="0" index="17">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer visibilityExpression="" horizontalStretch="0" collapsedExpression="" name="Capacity" showLabel="1" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="0" collapsedExpressionEnabled="0" groupBox="0" type="Tab" columnCount="1">
+          <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+            <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" name="total_capacity" showLabel="1" verticalStretch="0" index="18">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer visibilityExpression="" horizontalStretch="0" collapsedExpression="" name="Surface" showLabel="1" collapsed="0" verticalStretch="0" visibilityExpressionEnabled="0" collapsedExpressionEnabled="0" groupBox="0" type="Tab" columnCount="1">
+          <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+            <labelFont style="0" description="Noto Sans,-1,10,255,5,0,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" name="surface_type" showLabel="1" verticalStretch="0" index="11">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" name="surface_notes" showLabel="1" verticalStretch="0" index="12">
+            <labelStyle overrideLabelColor="0" labelColor="" overrideLabelFont="0">
+              <labelFont style="" description="Noto Sans,10,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+      </attributeEditorForm>
+      <editable>
+        <field name="date_added" editable="1"/>
+        <field name="date_last_verified" editable="1"/>
+        <field name="ev_capacity" editable="1"/>
+        <field name="fee_restriction_notes" editable="1"/>
+        <field name="fid" editable="1"/>
+        <field name="handicap_capacity" editable="1"/>
+        <field name="is_fee_restricted" editable="1"/>
+        <field name="is_other_restricted" editable="1"/>
+        <field name="is_permit_restricted" editable="1"/>
+        <field name="is_time_restricted" editable="1"/>
+        <field name="motorcycle_capacity" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="notes" editable="1"/>
+        <field name="other_attachment" editable="1"/>
+        <field name="other_restriction_notes" editable="1"/>
+        <field name="owner_type" editable="1"/>
+        <field name="permit_restriction_notes" editable="1"/>
+        <field name="restriction_info_attachment" editable="1"/>
+        <field name="surface_notes" editable="1"/>
+        <field name="surface_type" editable="1"/>
+        <field name="time_restriction_notes" editable="1"/>
+        <field name="total_capacity" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="date_added" labelOnTop="0"/>
+        <field name="date_last_verified" labelOnTop="1"/>
+        <field name="ev_capacity" labelOnTop="1"/>
+        <field name="fee_restriction_notes" labelOnTop="1"/>
+        <field name="fid" labelOnTop="0"/>
+        <field name="handicap_capacity" labelOnTop="1"/>
+        <field name="is_fee_restricted" labelOnTop="1"/>
+        <field name="is_other_restricted" labelOnTop="1"/>
+        <field name="is_permit_restricted" labelOnTop="1"/>
+        <field name="is_time_restricted" labelOnTop="1"/>
+        <field name="motorcycle_capacity" labelOnTop="1"/>
+        <field name="name" labelOnTop="1"/>
+        <field name="notes" labelOnTop="1"/>
+        <field name="other_attachment" labelOnTop="1"/>
+        <field name="other_restriction_notes" labelOnTop="1"/>
+        <field name="owner_type" labelOnTop="1"/>
+        <field name="permit_restriction_notes" labelOnTop="1"/>
+        <field name="restriction_info_attachment" labelOnTop="1"/>
+        <field name="surface_notes" labelOnTop="1"/>
+        <field name="surface_type" labelOnTop="1"/>
+        <field name="time_restriction_notes" labelOnTop="1"/>
+        <field name="total_capacity" labelOnTop="1"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="date_added" reuseLastValue="0"/>
+        <field name="date_last_verified" reuseLastValue="1"/>
+        <field name="ev_capacity" reuseLastValue="0"/>
+        <field name="fee_restriction_notes" reuseLastValue="0"/>
+        <field name="fid" reuseLastValue="0"/>
+        <field name="handicap_capacity" reuseLastValue="0"/>
+        <field name="is_fee_restricted" reuseLastValue="0"/>
+        <field name="is_other_restricted" reuseLastValue="0"/>
+        <field name="is_permit_restricted" reuseLastValue="0"/>
+        <field name="is_time_restricted" reuseLastValue="0"/>
+        <field name="motorcycle_capacity" reuseLastValue="0"/>
+        <field name="name" reuseLastValue="0"/>
+        <field name="notes" reuseLastValue="0"/>
+        <field name="other_attachment" reuseLastValue="0"/>
+        <field name="other_restriction_notes" reuseLastValue="0"/>
+        <field name="owner_type" reuseLastValue="0"/>
+        <field name="permit_restriction_notes" reuseLastValue="0"/>
+        <field name="restriction_info_attachment" reuseLastValue="0"/>
+        <field name="surface_notes" reuseLastValue="0"/>
+        <field name="surface_type" reuseLastValue="0"/>
+        <field name="time_restriction_notes" reuseLastValue="0"/>
+        <field name="total_capacity" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
